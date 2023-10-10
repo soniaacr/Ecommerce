@@ -1,0 +1,221 @@
+export const productData = [
+    {
+      "_id": 1,
+      "title": "Long sleeve Jacket",
+      "isNew": true,
+      "oldPrice": "200",
+      "price": 150,
+      "description": "The Oversized Jean Jacket features a button-up front and traditional collar, providing a nod to the iconic denim jackets of the past. Its relaxed silhouette allows you to layer it effortlessly over your favorite outfits, whether it's a casual tee, a cozy sweater, or a chic dress.",
+      "category": "women",
+      "image": "https://images.pexels.com/photos/2584269/pexels-photo-2584269.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "rating": 4
+    },
+    {
+      "_id": 2,
+      "title": "Woolen Hat",
+      "isNew": true,
+      "oldPrice": "70",
+      "price": 65,
+      "description": "The Woolen Hat features a classic design with a snug, ribbed knit that ensures a comfortable fit. Its versatility allows you to pair it effortlessly with a variety of outfits, from casual to formal, adding a touch of timeless elegance to your winter ensemble.",
+      "category": "women",
+      "image": "https://images.pexels.com/photos/2681751/pexels-photo-2681751.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "rating": 3
+    },
+    {
+      "_id": 3,
+      "title": "Compact fashion t-shirt",
+      "isNew": true,
+      "oldPrice": "70",
+      "price": 55.99,
+      "description": "Crafted from premium, breathable cotton, this T-shirt offers a luxurious feel against your skin. The fabric is not only soft but also durable, ensuring that your fashion statement lasts season after season. Its lightweight and breathable nature make it perfect for everyday wear.",
+      "category": "women",
+      "image": "https://images.pexels.com/photos/2752045/pexels-photo-2752045.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "rating": 3
+    },
+    {
+      "_id": 4,
+      "title": "Blue jeans",
+      "isNew": true,
+      "oldPrice": "70",
+      "price": 50,
+      "description": "Crafted with precision and care, these jeans are made from high-quality denim that not only feels comfortable against your skin but also promises durability that will withstand the test of time. The deep, rich blue hue adds a touch of sophistication to your casual wardrobe.",
+      "category": "women",
+      "image": "https://images.pexels.com/photos/1485031/pexels-photo-1485031.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "rating": 3
+    },
+    {
+      "_id": 5,
+      "title": "Skirts with full setup",
+      "isNew": true,
+      "oldPrice": "800",
+      "price": 695,
+      "description": "Crafted with meticulous attention to detail, this skirt is designed to flatter your figure and enhance your style. Made from high-quality fabric, it offers a delightful balance between softness and durability, ensuring you look and feel your best.",
+      "category": "women",
+      "image": "https://images.pexels.com/photos/1631181/pexels-photo-1631181.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "rating": 5
+    },
+    {
+      "_id": 6,
+      "title": "Yellow Hoody",
+      "isNew": false,
+      "oldPrice": "200",
+      "price": 180,
+      "description": "Crafted from soft and comfortable fabric, this hoodie is designed to keep you snug on chilly days while making a bold fashion statement. The rich yellow color exudes positivity and energy, making it a standout piece in your collection.",
+      "category": "men",
+      "image": "https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "rating": 4
+    },
+    {
+      "_id": 7,
+      "title": "Black t-shirt for women",
+      "isNew": false,
+      "oldPrice": "60",
+      "price": 20,
+      "description": "Available in a range of sizes, our Classic Black Shirt ensures a comfortable and flattering fit for all body types. Pair it with tailored slacks for a professional ensemble, or dress it down with jeans for a chic and relaxed vibe.",
+      "category": "women",
+      "image": "https://images.pexels.com/photos/2010812/pexels-photo-2010812.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "rating": 2
+    },
+    {
+      "_id": 8,
+      "title": "Gouwn with Red velvet",
+      "isNew": false,
+      "oldPrice": "500",
+      "price": 350,
+      "description": "Our Red Velvet Dress boasts a classic A-line silhouette that flatters a variety of body shapes. The rich red hue, reminiscent of deep ruby, adds a touch of glamour and drama to your look. The dress features a modest V-neckline and three-quarter sleeves, offering both style and comfort.",
+      "image": "https://images.pexels.com/photos/2233703/pexels-photo-2233703.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "rating": 3
+    },
+    {
+      "_id": 9,
+      "title": "Pink beauty",
+      "isNew": false,
+      "oldPrice": "150",
+      "price": 100,
+      "description": "Our Enchanting Pink Dress features a classic and universally flattering silhouette that transcends seasons and trends. The gentle blush color is reminiscent of blooming flowers, making it a delightful choice for spring weddings, summer soirées, or even an evening out with friends.",
+      "category": "women",
+      "image": "https://images.pexels.com/photos/2065195/pexels-photo-2065195.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "rating": 3
+    },
+    {
+      "_id": 10,
+      "title": "Jean's stylish Jacket",
+      "isNew": false,
+      "oldPrice": "250",
+      "price": 245,
+      "description": "Crafted with precision and care, this jacket is made from premium denim fabric that not only feels comfortable but also promises durability. The medium blue wash adds a touch of ruggedness, making it an ideal choice for casual wear throughout the year.",
+      "category": "men",
+      "image": "https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "rating": 5
+    },
+    {
+      "_id": 11,
+      "title": "Jamdani Saree",
+      "isNew": false,
+      "oldPrice": "1000",
+      "price": 800,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+      "category": "women",
+      "image": "https://images.pexels.com/photos/3363204/pexels-photo-3363204.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "rating": 4
+    },
+    {
+      "_id": 12,
+      "title": "Black Jacket",
+      "isNew": false,
+      "oldPrice": "200",
+      "price": 140,
+      "description": "Crafted with meticulous attention to detail, this jacket is made from high-quality leather that not only exudes sophistication but also promises exceptional durability. The deep black color adds an element of mystery and intrigue, making it a symbol of cool, edgy fashion.",
+      "category": "men",
+      "image": "https://images.pexels.com/photos/983497/pexels-photo-983497.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "rating": 3
+    },
+    {
+      "_id": 13,
+      "title": "Black top with jeans",
+      "isNew": false,
+      "oldPrice": "130",
+      "price": 120,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+      "category": "women",
+      "image": "https://images.pexels.com/photos/3672825/pexels-photo-3672825.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "rating": 4
+    },
+    {
+      "_id": 14,
+      "title": "Clothes with bag",
+      "isNew": false,
+      "oldPrice": "80",
+      "price": 50,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+      "category": "kids",
+      "image": "https://images.pexels.com/photos/36029/aroni-arsa-children-little.jpg?auto=compress&cs=tinysrgb&w=600",
+      "rating": 2
+    },
+    {
+      "_id": 15,
+      "title": "Stylish jeans in lightblue",
+      "isNew": false,
+      "oldPrice": "120",
+      "price": 100,
+      "description": "Both pieces in our Jean Set are made to stand the test of time, featuring high-quality denim that's soft to the touch and built to last. The coordinating color and style make this set a versatile addition to your wardrobe.",
+      "category": "women",
+      "image": "https://images.pexels.com/photos/2738792/pexels-photo-2738792.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "rating": 4
+    },
+    {
+      "_id": 16,
+      "title": "Unknown horizon",
+      "isNew": false,
+      "oldPrice": "400",
+      "price": 350,
+      "description": "This jacket's adaptability knows no bounds. Whether you're dressing it up for a night out on the town or adding a touch of edge to your everyday look, it effortlessly complements your style needs. Pair it with jeans for a classic denim-on-denim ensemble or wear it over a graphic tee for a cool and relaxed vibe.",
+      "category": "men",
+      "image": "https://images.pexels.com/photos/2866077/pexels-photo-2866077.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "rating": 4
+    },
+    {
+      "_id": 17,
+      "title": "Light tops",
+      "isNew": false,
+      "oldPrice": "140",
+      "price": 120,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non magni facili blanditiis molestias soluta eveniet illum accusantium eius mollitia eligendi, ex iste doloribus magnam.",
+      "category": "women",
+      "image": "https://images.pexels.com/photos/2010925/pexels-photo-2010925.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "rating": 3
+    },
+    {
+      "_id": 18,
+      "title": "Khakhi jeans",
+      "isNew": false,
+      "oldPrice": "250",
+      "price": 190,
+      "description": "Crafted with meticulous attention to detail, these overalls are designed to provide both fashion and functionality. Made from high-quality khaki fabric, they offer a delightful blend of softness and durability, ensuring you look and feel your best.",
+      "category": "women",
+      "image": "https://images.pexels.com/photos/3054973/pexels-photo-3054973.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "rating": 4
+    },
+    {
+      "_id": 19,
+      "title": "Black full sleeve",
+      "isNew": false,
+      "oldPrice": "180",
+      "price": 170,
+      "description": "The shirt showcases a timeless silhouette with long sleeves, a rounded neckline, and a tailored fit that complements a variety of body types. The slim and sleek design makes it perfect for both casual and more formal settings.",
+      "category": "women",
+      "image": "https://images.pexels.com/photos/2693849/pexels-photo-2693849.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "rating": 3
+    },
+    {
+      "_id": 20,
+      "title": "Formal for Men",
+      "isNew": false,
+      "oldPrice": "500",
+      "price": 490,
+      "description": "Meticulously crafted with attention to every detail, our men's suit is designed to make you look and feel your absolute best. Crafted from high-quality fabric, this suit offers a delightful blend of comfort and durability, ensuring you exude confidence at any formal occasion.",
+      "category": "women",
+      "image": "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "rating": 5
+    }
+  ]

@@ -1,0 +1,10 @@
+@tailwind base;
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../../fonts/bebas.woff2");
+  font-display: block;
+  font-style: normal;
+  font-weight: 300 900;
+  font-stretch: 75% 12%;
+}
